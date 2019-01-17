@@ -22,6 +22,8 @@
 		F481041721EF19C100202936 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F481040D21EF19C100202936 /* nssl0033.jpg */; };
 		F481041821EF19C100202936 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F481040E21EF19C100202936 /* nssl0034.jpg */; };
 		F481041A21EF19EB00202936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F481041921EF19EB00202936 /* Main.storyboard */; };
+		F481041D21EF1A4800202936 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F481041B21EF1A4800202936 /* DetailsViewController.swift */; };
+		F481041E21EF1A4800202936 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F481041C21EF1A4800202936 /* DetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		F481040D21EF19C100202936 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		F481040E21EF19C100202936 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		F481041921EF19EB00202936 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F481041B21EF1A4800202936 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F481041C21EF1A4800202936 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				F48103FB21EF193900202936 /* LaunchScreen.storyboard */,
 				F48103FE21EF193900202936 /* Info.plist */,
 				F481040421EF19C100202936 /* Content */,
+				F481041B21EF1A4800202936 /* DetailsViewController.swift */,
+				F481041C21EF1A4800202936 /* DetailsViewController.xib */,
 			);
 			path = "HWS-Project1";
 			sourceTree = "<group>";
@@ -167,6 +173,7 @@
 				F481041621EF19C100202936 /* nssl0043.jpg in Resources */,
 				F481041821EF19C100202936 /* nssl0034.jpg in Resources */,
 				F481040F21EF19C100202936 /* nssl0049.jpg in Resources */,
+				F481041E21EF1A4800202936 /* DetailsViewController.xib in Resources */,
 				F481041A21EF19EB00202936 /* Main.storyboard in Resources */,
 				F481041421EF19C100202936 /* nssl0041.jpg in Resources */,
 				F481041521EF19C100202936 /* nssl0042.jpg in Resources */,
@@ -185,6 +192,7 @@
 			files = (
 				F48103F521EF193600202936 /* ViewController.swift in Sources */,
 				F48103F321EF193600202936 /* AppDelegate.swift in Sources */,
+				F481041D21EF1A4800202936 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

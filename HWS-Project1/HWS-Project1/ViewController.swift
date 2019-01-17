@@ -19,13 +19,19 @@ class ViewController: UITableViewController {
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
 
-        print(items)
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.largeTitleDisplayMode = .never
+
+
         for item in items {
             if item.hasPrefix("nssl") {
                 pictures.append(item)
             }
         }
     }
+
+
+
 
     @IBOutlet var picturesTableView: UITableView!
 
@@ -39,7 +45,7 @@ class ViewController: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailsViewController {
             vc.selectedImage = pictures[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
 
