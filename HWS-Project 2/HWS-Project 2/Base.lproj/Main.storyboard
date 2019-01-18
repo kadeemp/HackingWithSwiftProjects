@@ -18,23 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="112" translatesAutoresizingMaskIntoConstraints="NO" id="A3H-Wy-yA0">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalSpacing" spacing="112" translatesAutoresizingMaskIntoConstraints="NO" id="A3H-Wy-yA0">
                                 <rect key="frame" x="75" y="123" width="225" height="524"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrh-lg-NY7">
                                         <rect key="frame" x="0.0" y="0.0" width="225" height="100"/>
-                                        <state key="normal" backgroundImage="nigeria"/>
-                                        <connections>
-                                            <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YKv-2O-d2z"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1p-6E-Tfp">
                                         <rect key="frame" x="0.0" y="212" width="225" height="100"/>
-                                        <state key="normal" backgroundImage="us"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvR-ct-X9c">
                                         <rect key="frame" x="0.0" y="424" width="225" height="100"/>
-                                        <state key="normal" backgroundImage="estonia"/>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -57,7 +51,7 @@
                     <navigationItem key="navigationItem" id="S0e-Ct-bgY"/>
                     <connections>
                         <outlet property="button1" destination="Hrh-lg-NY7" id="ib8-Qw-Xrd"/>
-                        <outlet property="button2" destination="WvR-ct-X9c" id="0l4-6G-zJt"/>
+                        <outlet property="button2" destination="u1p-6E-Tfp" id="edn-U8-8LC"/>
                         <outlet property="button3" destination="WvR-ct-X9c" id="PeA-Ce-fcg"/>
                     </connections>
                 </viewController>
@@ -84,9 +78,4 @@
             <point key="canvasLocation" x="140" y="-564.46776611694156"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="estonia" width="200" height="100"/>
-        <image name="nigeria" width="200" height="100"/>
-        <image name="us" width="200" height="100"/>
-    </resources>
 </document>
